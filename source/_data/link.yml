@@ -1,0 +1,16 @@
+- class_name: 友情链接
+  class_desc: 
+  link_list:
+    - name: HITSZ
+      link:https://www.hitsz.edu.cn/index.html 
+      avatar: 
+      descr: 哈工深官网
+
+- class_name: 网站
+  class_desc: 推荐的课程网站
+  link_list:
+    -name: bilibili
+      link:www.bilibili.com
+      avatar: 
+      descr: b站
+
