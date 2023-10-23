@@ -3,14 +3,14 @@
   link_list:
     - name: HITSZ
       link: https://www.hitsz.edu.cn/index.html 
-      avatar: 
+      avatar: 哈深的官网 
       descr: 哈工深官网
 
 - class_name: 网站
   class_desc: 推荐的课程网站
   link_list:
-    - name: bilibili
-      link: www.bilibili.com
-      avatar: 
+    - name: 数字电路
+      link: https://www.bilibili.com/video/BV1A3411z7Mf/?spm_id_from=333.337.search-card.all.click&vd_source=67219ae74a163427f28618146ba99a28
+      avatar: 一个讲的很详细，很清晰的老师。
       descr: b站
 
