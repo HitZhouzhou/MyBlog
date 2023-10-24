@@ -44,7 +44,7 @@ comments: false
 <script>
     let UserConfig = {
         // 替换为你的API!!!
-        private_api_url: 'https://fcircle.fomal.cc/',
+        private_api_url: 'https://github.com/HitZhouzhou',
         // 点击加载更多时，一次最多加载几篇文章，默认10
         page_turning_number: 12,
         // 头像加载失败时，默认头像地址
