@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>第二章 条件概率与独立性</title>
+      <link href="/posts/c8a56023.html"/>
+      <url>/posts/c8a56023.html</url>
+      
+        <content type="html"><![CDATA[<h1>条件概率与独立性总结</h1><h2 id="主线">主线</h2><ol><li>条件概率,乘法定理</li><li>全概率公式</li><li>贝叶斯公式</li><li>试验的独立性</li><li>重复独立试验,二项概率公式</li><li><strong>二项概率的泊松逼近</strong>(新知识)</li></ol><h2 id="1-条件概率-乘法定理">1.条件概率,乘法定理</h2><h3 id="条件概率">条件概率</h3><p>提出:在实际中,我们除了要考虑实际A发生的概率外,有时还要考虑在实际B发生的基础上,事件A发生的概率.<br>因此提出:条件概率,记作$P(A|B) $,读作&quot;事件A在实际B发生的条件下的条件概率&quot;.<br>$$P(A|B)=\frac{P(AB)}{P(B)} $$</p><p>定义:设A和B为两个任意的事件,且$P(B)&gt;0 $,则称$P(AB)/P(B) $为事件A在实际B发生的条件下的条件概率.<br>$$P(A|B)=\frac{P(AB)}{P(B)} $$</p><p>定理: 条件概率$P(A|B)=\frac{P(AB)}{P(B)} $满足概率的三条公理:</p><ol><li>$P(A|B)\geq 0 $</li><li>$P(S|B)=1 $</li><li>若$A_1,A_2… $互不相容,则有$$P((A_1,A_2+\dots)|B)=P(A_1|B)+P(A_2|B)+\dots $$</li></ol><p>因此,由这三条公理推导出的定理对条件概率也适用.</p><h3 id="乘法定理">乘法定理</h3><p>两个事件积的概率等于其中一个事件的概率与另一事件在前一事件发生条件下的条件概率的乘积,听起来很绕,其实就是:<br>$$P(AB)=P(A)P(B|A) $$<br>推广到n个事件上:$$P(A_1A_2\dots A_n)P(A_1)P(A_2|A_1)\dots P(A_n|A_1A_2\dots P_{n-1}) $$</p><h2 id="全概率公式">全概率公式</h2><p>提出:在概率的计算中,人们希望通过已知的,简单的概率去计算未知的,较为复杂的概率.</p><p>定理(全概率公式) 设$A_1,A_2,…A_n $是互不相容的的事件,且$P(A_i)&gt;0(i=1,2,\dots n)$,若对任一事件B,都有$A_1+A_2+…+A_n\supset B $(即B发生一定导致$A_1,A_2,\dots A_n $中的一个发生),有:<br>$$P(B)=\sum_{i=1}^{n}P(B|A_i) $$</p><h2 id="贝叶斯公式">贝叶斯公式</h2><p>提出:在诊病,已知出现某种症状的许多病因,假如在某次诊断中出现了某种症状,就需要研究引起这种症状的各种病因的概率是多少,哪种病因出现的概率最大.</p><p>定理:设A_1,A_2,…,A_n是互不相容的事件,且$P(A_i) $大于0.若对任意事件B都有$A_1+A_2+\dots+A_n\supset B $则$$P(A_i|B)=\frac{P(A_i)P(B|A_i)}{\sum_{j=1}^{n}P(A_j)P(B|A_j)} $$</p><blockquote><p>式中,$P_i $为先验概率,这种概率一般在试验之前就已经知道了,$P(B|A_i) $为后验概率,它反应在事件发生后对各种可能的原因的概率的新知识.</p></blockquote><h2 id="事件的独立性">事件的独立性</h2><p>提出:如上可知,条件概率和无条件概率一般是不相等的,即$P(B|A)\neq P(B) $即B的发生对A的概率会有影响.如果P(B|A)=P(B),则代表A事件的发生对B事件没有影响,因此可以认为A与B的发生是相互独立的.<br>$$P(B|A)=\frac{P(AB)}{P(A)}=P(B) \implies P(AB)=P(A)P(B) $$<br>定义:设A,B为两个任意的事件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 概率论 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 概率论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第三章 随机变量及其分布</title>
+      <link href="/posts/c8a56023.html"/>
+      <url>/posts/c8a56023.html</url>
+      
+        <content type="html"><![CDATA[<h1>随机变量及其分布</h1><h2 id="主线">主线:</h2><ol><li>随机变量的概念</li><li>离散型随机变量<ol><li>概率分布列</li><li>0-1分布</li><li>二项分布</li><li>泊松分布</li><li>几何分布</li><li>超几何分布</li></ol></li><li>随机变量的分布函数</li><li>连续型随机变量</li></ol><h2 id="随机变量的概念">随机变量的概念</h2><p>提出:在随机试验中,人们观察的常常是一个随机取值的量,如:电话的拨通次数,灯泡的寿命等.对于观察对象与数值无关的试验,也可以使其与数值相关联,如:抛硬币,正面取1,反面取0.</p><h3 id="随机变量的特点">随机变量的特点</h3><p>若用$X$来表示随机变量,则随着试验的重复,$X$可以取不同的值,并且$X$的取值在试验前是无法预测的,具有随机性.例如抛硬币:</p><p>$$<br>X=\begin{cases}</p><p>1 &amp; 正面出现 \</p><p>2 &amp; 反面出现 \</p><p>\end{cases}<br>$$</p><h3 id="定义">定义:</h3><p>设$E$是随机试验,它的样本空间是$S$.如果对$S$中的每个基本事件$e$,都有唯一的实数值$X(e)$与之对应,则称$X(e)$为随机变量,简记为$X$</p><h3 id="分类">分类:</h3><p>$$<br>随机变量=\begin{cases}<br>离散型随机变量 &amp; (随机变量的取值是有限个,或者可列无穷多个)\<br>连续型随机变量 &amp; (取值可以充满一个空间)\<br>\end{cases}<br>$$</p><h2 id="离散型随机变量">离散型随机变量</h2><h3 id="概率分布列">概率分布列</h3><p>提出:对于随机变量$X$,我们不仅想知道它的可能取值,还想知道它每个取值出现的概率.</p><p>设事件“$X=x_k$”的概率为$p_k$,即<br>$$<br>P(X=x_k)=p_k(k=1,2,3…)<br>$$<br>则该式子不仅告诉人们$X$的取值,还告诉人们每个取值的概率大小.人们称该式为$X$的概率分布列,又称分布律.它也可以用表格的形式表现出来:</p><table><thead><tr><th>$X$</th><th>$X_1$</th><th>…</th><th>$X_k$</th><th>…</th><th></th></tr></thead><tbody><tr><td>$P$</td><td>$P_1$</td><td>…</td><td>$P_k$</td><td>…</td><td></td></tr></tbody></table><p>由概率的基本性质可知,任何分布列都满足:<br>$$<br>\begin{split}<br>&amp;1. P_k \geq 0(k=1,2…)\<br>&amp;2. \sum_kP_k=1\<br>\end{split}<br>$$</p><h2 id="0-1分布-伯努利分布-两点分布">0-1分布(伯努利分布,两点分布)</h2><p>定义:若随机变量$X$只能取0,1两个值,则称其服从0-1分布.</p><p>分布列是:<br>$$<br>P(X=1)=p,P(X=0)=1-p , (0&lt;p&lt;1)<br>$$<br>记为:$X\sim B(1,p)$</p><h2 id="二项分布">二项分布</h2><p>定义:</p><p>若随机变量X的分布列<br>$$<br>P(X=k)=C_n^{k}p^k(1-p)^{n-k},(k=0,1,2…,n),(0&lt;p&lt;1)<br>$$<br>则称X服从二项分布,记为$X \sim B(n,p)$</p><p>特别的,当n=1时<br>$$<br>P(X=k)=p^kq^{1-k},(k=0,1)<br>$$</p><h2 id="泊松分布">泊松分布</h2><p>定义:若随机变量X的分布列<br>$$<br>P(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}(\lambda&gt;0)(k=0,1,2…)<br>$$<br>则称X满足参数为$\lambda$的泊松分布分布,并用记号$X \sim P(\lambda)$表示</p><p>同样的泊松分布也满足分布列的两条性质<br>$$<br>P(X=k)\geq 0\<br>\sum_{k=1}^{\infty} P(X=k)=1<br>$$</p><blockquote><p>以n,p为参数的二项分布,当n很大,p很小时,近似于$\lambda=np$为参数的泊松分布.</p></blockquote><h2 id="几何分布-具有无记忆性">几何分布(具有无记忆性)</h2><p>若随机变量的分布列<br>$$<br>P(X=k)=q^{k-1}p(k=1,2…),\<br>0&lt;p&lt;1,q=1-p<br>$$<br>则称随机变量X服从几何分布,记为:$X\sim G§$</p><blockquote><p>几何分布可以理解为,则伯努利试验中,每次试验成功的概率为p,现在独立重复伯努利试验,其第一次出现成功在第k次试验的概率.$q^{k-1}$表示前k-1次试验是失败的,第k次是成功的.</p></blockquote><h2 id="超几何分布">超几何分布</h2><p>设有N件产品,其中有M件次品,今从中取n件,则这n件产品中含的次品数X是一个离散型随机变量.<br>$$<br>P(X=k)=\frac{C_M^{k}C_{N-M}^{n-k}}{C_N^{n}}(k=0,1,2…l)\<br>l=min(M,n)<br>$$</p><blockquote><p>二项分布是有放回的抽取,而超几何分布是无放回的抽取.</p></blockquote><p>定理:<br>$$<br>\lim_{N\to\infty}{\frac{C_M^kC_{N-M}^{n-k}}{C_N^n}}\approx C_N^n(\frac{M}{N})^k(1-\frac{M}{N})^{n-k}\<br>k=0,1…,min(M,n)<br>$$</p><blockquote><p>一般的,当$n\leq 0.1N$时,可以用此近似公式.由于有专门的二项分布表可查,可以节省工作量.</p></blockquote><h2 id="随机变量的分布函数">随机变量的分布函数</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 概率论 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 概率论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一章 随机事件与概率</title>
+      <link href="/posts/c8a56023.html"/>
+      <url>/posts/c8a56023.html</url>
+      
+        <content type="html"><![CDATA[<h1>第一章总结</h1><h2 id="主线">主线</h2><ol><li>古典概率</li><li>几何概率</li><li>统计概率</li><li>概率的公理化定义</li></ol><h2 id="1-古典概率">1.古典概率</h2><p>定义:若$E $为一个古典概型的实验,则E满足:</p><ol><li>只有有限个基本事件</li><li>每个基本事件发生的可能性相等</li></ol><p>$P(A)=\frac{A中包含的基本事件个数}{基本事件总数} $</p><blockquote><p>用此公式计算时常常要用到排列组合的知识来计算分子分母的基本事件数</p></blockquote><h2 id="2-几何概率">2.几何概率</h2><p>提出:概率的古典定义是在样本空间的基本事件的个数有限时给出的,当基本事件的个数无穷多时就不适用了,因此提出了几何概率.<br>定义: 向一个区域S中掷一质点M,M必然落在S中且M落在S中的区域A上的可能性只与A的度量有关,与其他因素无关,则这个试验为几何概型试验.<br>$$P(A)=\frac{L(A)}{L(S)} $$</p><h2 id="3-统计概率">3.统计概率</h2><p>提出:古典概率和几何概率都只在基本事件的发生是等可能的条件下才成立,有很大的局限性.实际上,很多试验不具有等可能的性质.</p><blockquote><p>如接电话次数为:0,1,2,3…次,这些试验结果不是等可能的.</p></blockquote><p>设$A $为联系于某一试验的事件,将试验在相同条件下重复n次,用m表示A出现的个数,则$\frac{m}{n} $称为事件A的<strong>相对频率</strong>,记作$f_n(A) $<br>$$f_n(A)=\frac{m}{n} $$</p><p>定义:在一组固定条件下,重复做n次试验,当n增大时,事件A出现的频率$f_(A) $围绕着某一常数p摆动,且随着n的增大,这个摆动幅度越来越小,则称p为事件A的概率.<br>$$P(A)=p $$</p><h2 id="概率的公理化定义">概率的公理化定义</h2><p>提出:由于以上三种概率都满足三条相同的性质,根据这三条相同的性质提出概率的三条公理:</p><p><strong>公理1</strong>$$P(A)\geq 0 $$</p><p><strong>公理2</strong>$$P(S)=1 $$</p><p><strong>公理3</strong> 对于互不相容的事件$A_1,A_2,…A_n… $,有$$P(A_1+A_2+A_3\dots+A_n\dots)=P(A_1)+P(A_2)+\dots+P(A_n)+… $$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 概率论 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 概率论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
@@ -25,6 +100,19 @@
             <tag> 外挂标签 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1>第一章习题总结</h1><h2 id="关于“-”和“-bigcup-”">关于“+”和“$\bigcup$”</h2><p>当A和B是互不相容事件时,$A\bigcup B$可以写成$A+B$</p><h2 id="P-A-overline-B-P-A-B-P-A-P-AB">$P(A\overline{B})=P(A-B)=P(A)-P(AB)$</h2><p>后面定理2.4.3的证明中也会用到</p><blockquote><p>定理2.4.3 若事件$A_1,A_2,…A_n$相互独立,则对任意个事件换成对立事件仍然相互独立</p></blockquote>]]></content>
+      
+      
       
     </entry>
     
