@@ -44,7 +44,7 @@ favicon:  http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierflower.webp
 
 # Avatar (頭像)
 avatar:
-  img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/v2-8f1188f78506199fb91e493e15801899_r.jpg
+  img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yexiaop.jpg
   effect: false
 
 # Disable all banner image
@@ -57,7 +57,7 @@ index_img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubukite.web
 default_top_img:
 
 # The banner image of archive page
-archive_img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubu.webp
+archive_img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbuburiver.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
