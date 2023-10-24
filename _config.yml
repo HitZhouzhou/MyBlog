@@ -6,7 +6,7 @@
 title: 哈晓周🥝
 subtitle: 
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,哈小周'
+keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,哈小周'
 author: zjy🥝
 language: zh-CN
 timezone: ''
@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://hitszzhoujy.com/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -273,22 +273,22 @@ magnet:
   devide: 3
   display:
     - name: 算法
-      display_name: 小Fの算法学习笔记
+      display_name: 小Pの算法学习笔记
       icon: 🍡
     - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
+      display_name: 小Pの计算机基础笔记
       icon: 🍼
     - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+      display_name: 小Pの博客魔改教程
       icon: 🍉
     - name: Java基础
-      display_name: 小FのJava基础笔记
+      display_name: 小PのJava基础笔记
       icon: 🍟
     - name: 数据库
-      display_name: 小Fの数据库笔记
+      display_name: 小Pの数据库笔记
       icon: 🍨
     - name: 演示
-      display_name: 小Fの案例演示笔记
+      display_name: 小Pの案例演示笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色

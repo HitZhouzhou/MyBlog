@@ -5,6 +5,7 @@ type: "link"
 ---
 
 ## 本站友链添加方式：
+> 目前暂时不开通该功能，等小p站长摸索清楚后再慢慢完善吧~~
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
@@ -33,7 +34,8 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | Fomalhaut🥝                                                   |
+| 站点名称   | 
+哈晓周                                                  |
 | 站点截图   | https://source.fomal.cc/siteshot/www.fomal.cn.jpg |
 | 站点链接   | https://hitszzhoujy.com                                        |
 | 站长头像   | https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuhat.gif                        |
