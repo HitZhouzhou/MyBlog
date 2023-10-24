@@ -40,12 +40,12 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon:  http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierflower.webp
 
 # Avatar (頭像)
 avatar:
   img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/v2-8f1188f78506199fb91e493e15801899_r.jpg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
