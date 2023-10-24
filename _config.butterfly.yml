@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: # image
+  logo: https://c-ssl.duitang.com/uploads/blog/202201/07/20220107104301_d545d.gif
   display_title: true
   fixed: false # fixed navigation bar
 
@@ -25,9 +25,9 @@ menu:
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
-code_word_wrap: false
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: true # unit: px
+code_word_wrap: true
 
 # Social Settings (社交圖標設置)
 # formal:
@@ -44,20 +44,20 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/v2-8f1188f78506199fb91e493e15801899_r.jpg
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbiubiu.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
 
 # The banner image of archive page
-archive_img:
+archive_img: http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubu.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
