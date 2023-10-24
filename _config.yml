@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository: # https://github.com/HitZhouzhou # 这里写上你的Github地址
+    repository: https://github.com/HitZhouzhou # 这里写上你的Github地址
     repo: git@github.com:HitZhouzhou/MyBlog.git
     branch: main
 
