@@ -10,7 +10,7 @@ type: "link"
 ```yml
     - name: 哈小周
       link: https://github.com/HitZhouzhou
-      avatar: https://www.fomal.cc/assets/avatar.webp
+      avatar: https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuhat.gif
       descr: Future is now 🍭🍭🍭
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
 ```
@@ -19,12 +19,12 @@ type: "link"
 <!-- tab 🥗Volantis -->
 ```JSON
 {
-  "title": "Fomalhaut🥝",
+  "title": "哈晓周",
   "screenshot": "https://source.fomal.cc/siteshot/www.fomal.cn.jpg",
-  "url": "https://www.fomal.cc/",
-  "avatar": "https://www.fomal.cc/assets/avatar.webp",
+  "url": "https://hitszzhoujy.com",
+  "avatar": "https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuhat.gif",
   "description": "Future is now 🍭🍭🍭",
-  "keywords": "Fomalhaut🥝"
+  "keywords": "哈晓周"
 }
 ```
 <!-- endtab -->
