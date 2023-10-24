@@ -1,16 +1,10 @@
-- class_name: 友情链接
-  class_desc: 
-  link_list:
-    - name: HITSZ
-      link: https://www.hitsz.edu.cn/index.html 
-      avatar: 哈深的官网 
-      descr: 哈工深官网
+- class_name: 0.推荐网站🍔
+  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+  link_list: 
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc/
+      avatar: https://www.fomal.cc/assets/avatar.webp
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
 
-- class_name: 网站
-  class_desc: 推荐的课程网站
-  link_list:
-    - name: 数字电路
-      link: https://www.bilibili.com/video/BV1A3411z7Mf/?spm_id_from=333.337.search-card.all.click&vd_source=67219ae74a163427f28618146ba99a28
-      avatar: 一个讲的很详细，很清晰的老师。
-      descr: b站
 
