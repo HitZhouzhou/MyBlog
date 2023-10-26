@@ -602,7 +602,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -1125,4 +1125,4 @@ index_card_style: multicard # slidecard | multicard
 
 # 灯笼开关 建议只在过年期间开启
 lantern:
-  enable: true
+  enable: false

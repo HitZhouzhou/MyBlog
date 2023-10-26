@@ -1360,7 +1360,8 @@ input#pic-link {
 
 /* heo 加载动画头像 */
 .loading-img {
-  background: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg) no-repeat center center;
+  background: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubusleep.jpeg) 
+    no-repeat center center;
   background-size: cover;
 }
 
