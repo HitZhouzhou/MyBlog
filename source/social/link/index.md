@@ -9,7 +9,7 @@ type: "link"
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
-    - name: 哈小周
+    - name: 哈晓周
       link: https://github.com/HitZhouzhou
       avatar: https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuhat.gif
       descr: Future is now 🍭🍭🍭
@@ -40,7 +40,7 @@ type: "link"
 | 站点链接   | https://hitszzhoujy.com                                        |
 | 站长头像   | https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuhat.gif                        |
 | 站点描述   | Future is now🍭🍭🍭                         |
-| 站点关键词 | 哈小周,个人博客,代码                                     |
+| 站点关键词 | 哈晓周,个人博客,代码                                     |
 
 <!-- endtab -->
 {% endtabs %}
