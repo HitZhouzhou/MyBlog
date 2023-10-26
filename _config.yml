@@ -275,11 +275,11 @@ magnet:
     - name: 算法
       display_name: 小Pの算法学习笔记
       icon: 🍡
-    - name: 计算机基础
-      display_name: 小Pの计算机基础笔记
+    - name: 概率论
+      display_name: 小Pの概率论笔记
       icon: 🍼
-    - name: 魔改教程
-      display_name: 小Pの博客魔改教程
+    - name: 数字电路
+      display_name: 小Pの数字电路
       icon: 🍉
     - name: Java基础
       display_name: 小PのJava基础笔记
@@ -287,9 +287,9 @@ magnet:
     - name: 数据库
       display_name: 小Pの数据库笔记
       icon: 🍨
-    - name: 演示
-      display_name: 小Pの案例演示笔记
-      icon: 🍥
+    # - name: 演示
+    #   display_name: 小Pの案例演示笔记
+    #   icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色
     text_hover_color: white # 文字鼠标悬浮颜色
