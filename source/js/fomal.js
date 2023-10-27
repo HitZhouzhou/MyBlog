@@ -675,7 +675,7 @@ if (document.body.clientWidth > 992) {
         borderRadius: 5 + 'px',
         right: 55.6 + 'px',
         nekoImg: "https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/guayier.jpeg",
-        hoverMsg: "秋天啦~",
+        hoverMsg: "想脑婆啦~",
         color: "var(--theme-color)",
         during: 500,
         blog_body: "body",
