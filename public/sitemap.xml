@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hitszzhoujy.com/posts/e795bdc5.html</loc>
+    
+    <lastmod>2023-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hitszzhoujy.com/personal/about/index.html</loc>
+    
+    <lastmod>2023-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hitszzhoujy.com/posts/b114de59.html</loc>
     
     <lastmod>2023-10-26</lastmod>
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://hitszzhoujy.com/posts/c8a56023.html</loc>
+    <loc>https://hitszzhoujy.com/posts/2013454d.html</loc>
     
     <lastmod>2023-10-24</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://hitszzhoujy.com/posts/2013454d.html</loc>
+    <loc>https://hitszzhoujy.com/posts/c8a56023.html</loc>
     
     <lastmod>2023-10-24</lastmod>
     
@@ -129,15 +147,6 @@
   
   <url>
     <loc>https://hitszzhoujy.com/personal/love/index.html</loc>
-    
-    <lastmod>2023-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hitszzhoujy.com/personal/about/index.html</loc>
     
     <lastmod>2023-10-24</lastmod>
     
@@ -254,7 +263,7 @@
 
   
   <url>
-    <loc>https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</loc>
+    <loc>https://hitszzhoujy.com/tags/love/</loc>
     <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,6 +278,13 @@
   
   <url>
     <loc>https://hitszzhoujy.com/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2023-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</loc>
     <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -319,7 +335,7 @@
 
   
   <url>
-    <loc>https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</loc>
+    <loc>https://hitszzhoujy.com/categories/%E6%81%8B%E7%88%B1%E5%B0%8F%E5%B1%8B/</loc>
     <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -327,6 +343,13 @@
   
   <url>
     <loc>https://hitszzhoujy.com/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2023-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/</loc>
     <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

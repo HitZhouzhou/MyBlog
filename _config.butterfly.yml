@@ -156,10 +156,10 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://source.fomal.cc/img/default_cover_14.webp
+    - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubusmile.jpg
     - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubuwangsj.jpeg
     - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg
-    - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/bubudun.gif
+    - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/20201208135220_c28df.jpeg
     - https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/20201208135220_c28df.jpeg
     # ...
 

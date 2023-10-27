@@ -6,7 +6,7 @@
   <link href="https://hitszzhoujy.com/atom.xml" rel="self"/>
   
   <link href="https://hitszzhoujy.com/"/>
-  <updated>2023-10-26T10:01:45.455Z</updated>
+  <updated>2023-10-27T01:18:54.717Z</updated>
   <id>https://hitszzhoujy.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>恋爱小屋</title>
+    <link href="https://hitszzhoujy.com/posts/e795bdc5.html"/>
+    <id>https://hitszzhoujy.com/posts/e795bdc5.html</id>
+    <published>2023-10-26T16:27:00.000Z</published>
+    <updated>2023-10-27T01:18:54.717Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试!" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="fbfc03f03c20671c656159f43b7d11a2989b090c221b764fd6ef7bf02f3544fc">4630436162ade97ba2718b7d0c4b3b63cb3a3f659c5ca08b4bca0f584592818670ffcd4ebbe97f48366e6e9b26b79bb500c35a7d7bdf812e5847f41c2b26390f9834c65963b19301ee32273bd4b9391f10a018d56e25e119041756aca0471aa2d92b5bb3c50eaad5a57fb806d54921baf81922906c7fa03a822e6f52b9c0c921653d66cc38625a8570ae6b1fdbd082469e36e7065f8308f7d739875fdc44fe6a0fb515c9cb2426ddd91b15035f4d4b8dc3b182f1b139f64568a9e60c108e7be4885461f5500748757c9fc57de3846373f038215d9acf09195e2b3e859862ecde0f8f2017c3a5ede3147db05f190ae6a13b7567eaec0f08e43a2b59722a3ba40d3249a40f915b8e543c947417869e2842bf8daddee05fb255cdc13338cc373ee0deca0d5e72c102f83f6b2bc0ac0c8a7ed98c0ee874b74bab8098f59eba749ad209a64c2b43c4848b6b2df458aced83d9bed6fd7ceb62971e54dac6ba543b115a29673830369d8b7302ffaa99564d27f94b41a22bd2d1af8b23c19ee432b76d74</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">这里记录我和女朋友的一些事情哦，需要密码才能进入!</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">The first airtcle of love house.</summary>
+    
+    
+    
+    <category term="恋爱小屋" scheme="https://hitszzhoujy.com/categories/%E6%81%8B%E7%88%B1%E5%B0%8F%E5%B1%8B/"/>
+    
+    
+    <category term="love" scheme="https://hitszzhoujy.com/tags/love/"/>
+    
+  </entry>
   
   <entry>
     <title>acw178/p4467_第k短路</title>
@@ -89,16 +110,16 @@
   </entry>
   
   <entry>
-    <title>第7章 多级门电路/与非门和或非门</title>
+    <title>第9章 多路选择器、译码器和可编程逻辑器件</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
     <published>2023-10-24T11:19:03.000Z</published>
     <updated>2023-10-24T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="多级门电路-与非门和或非门"><a href="#多级门电路-与非门和或非门" class="headerlink" title="多级门电路/与非门和或非门"></a>多级门电路/与非门和或非门</h1><h2 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h2><ol><li>多级门电路</li><li>与非门和或非门</li><li>两级与非门和或非门电路设计</li><li>多级与非门和或非门电路设计</li><li>用门代替符号转换电路</li><li>二级多输出电路设计</li><li>多输出与非门和或非门电路</li></ol><h2 id="7-1多级门电路"><a href="#7-1多级门电路" class="headerlink" title="7.1多级门电路"></a>7.1多级门电路</h2><p>电路的级数:电路中串联的门的最大数目就是电路的级数.</p><h3 id="7-1-1改变电路级数的方法"><a href="#7-1-1改变电路级数的方法" class="headerlink" title="7.1.1改变电路级数的方法:"></a>7.1.1改变电路级数的方法:</h3><ol><li>与或电路的级数会随着对推导出来的积之和式的因式分解而增加.</li><li>或与电路的级数会随着对推导出来的和之积式的展开而增加.</li></ol><blockquote><p>有时通过因式分解/展开各项可以增加电路的级数,从而减少需要的门数和门输入数目,但有时增加电路的级数反而会增大制造成本.</p></blockquote><h3 id="7-1-2用树状图确定确定为了实现一个函数需要的门和门输入数"><a href="#7-1-2用树状图确定确定为了实现一个函数需要的门和门输入数" class="headerlink" title="7.1.2用树状图确定确定为了实现一个函数需要的门和门输入数"></a>7.1.2用树状图确定确定为了实现一个函数需要的门和门输入数</h3><ol><li>$Z_1=[(A+B)C+DE(F+G)H]$</li><li>$Z_2=A+B[C+DE(F+G)]$<br><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image.png" alt="Alt text"></li></ol><h3 id="7-1-3找出一个最简的二级结果-为什么必须要同时考虑函数的和之积式和积之和式"><a href="#7-1-3找出一个最简的二级结果-为什么必须要同时考虑函数的和之积式和积之和式" class="headerlink" title="7.1.3找出一个最简的二级结果,为什么必须要同时考虑函数的和之积式和积之和式"></a>7.1.3找出一个最简的二级结果,为什么必须要同时考虑函数的和之积式和积之和式</h3><p>因为要比较和之积式和积之和式的化简结果才知道,哪种方式最终使用的门数最少,以及门输入量最少.</p><h2 id="7-2与非门和或非门"><a href="#7-2与非门和或非门" class="headerlink" title="7.2与非门和或非门"></a>7.2与非门和或非门</h2><h3 id="逻辑电路设计者常使用与非门和或非门的原因"><a href="#逻辑电路设计者常使用与非门和或非门的原因" class="headerlink" title="逻辑电路设计者常使用与非门和或非门的原因"></a>逻辑电路设计者常使用与非门和或非门的原因</h3><ol><li>和与门、或门相比,通常与非门和或非门速度更快,需要的元件更少.</li><li>只使用与非门或者或非门就能实现任何逻辑电路.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230921154114950.png" alt="image-20230921154114950"></p><h3 id="确定一组门是否的功能完善的方法"><a href="#确定一组门是否的功能完善的方法" class="headerlink" title="确定一组门是否的功能完善的方法"></a>确定一组门是否的功能完善的方法</h3><ol><li>写出每个门所实现的函数的最简积之和表达式.</li><li>如果出现了取反运算,那么可以通过适当选择对应门的输入来实现非门.</li><li>尝试是否可以实现与运算或者或运算,一旦实现其中一个,则可实现另外一个(待补)</li></ol><blockquote><p>需要用与非门画出函数$F=((X+Y)’+(X’+Z)’)’$的电路图</p></blockquote><h2 id="7-3两级与非门和或非门电路设计"><a href="#7-3两级与非门和或非门电路设计" class="headerlink" title="7.3两级与非门和或非门电路设计"></a>7.3两级与非门和或非门电路设计</h2><p>根据Demorgan定律,可以很容易的将由与门和或门组成的电路转成由与非门或者或非门组成的电路.</p><blockquote><p>Demorgan定律:</p><script type="math/tex; mode=display">(X_1+X_2+...+X_n)'=X_1'X_2'...X_n'\\(X_1X_2...X_n)'=X_1'+X_2'+...+X_n'</script></blockquote><p>举例:</p><script type="math/tex; mode=display">\begin{split}F&=A+BC'+B'CD\\&=[A'(BC')'(B'CD)']'(与非-与非)\\&=[A'(B'+C)(B+C'+D')]'\\&=A+(B'+C)'+(B+C'+D')'\\&=[A+(B'+C)'+(B+C'+D')']'(或非-或非-取反)\end{split}</script><p>有上可知,我们得到了一个或非-或非-取反电路,但是如果我们想得到一个只含有或非门的电路,<strong>就要先化简成最简和之积式</strong>,<strong>而不是最简积之和式</strong>.</p><p>举例:我们将上式中的$F$改写成最简和之积式.</p><script type="math/tex; mode=display">\begin{split}F=&(A+B+C)(A+B'+C')(A+C'+D)\\=&\{[(A+B+C)(A+B'+C')(A+C'+D)]'\}'\\=&\{(A+B+C)'+(A+B'+C')+(A+C'+D)'\}'(或非-或非)\\=&\{(A'B'C')+(A'BC)+(A'CD')\}'\\=&(A'B'C')'(A'BC)'(A'CD')'\\\end{split}</script><p>在最简和之积式的情况下,可以化简为只含或非门的电路,在最简积之和式的条件下,可以化简为只含与非门的电路.</p><h3 id="二级电路的八种形式"><a href="#二级电路的八种形式" class="headerlink" title="二级电路的八种形式"></a>二级电路的八种形式</h3><ol><li>与-或</li><li>与非-与非</li><li>或非-或</li><li>或-与非</li><li>或-与</li><li>或非-或非</li><li>与-或非</li><li>与非-或非</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150136864.png" alt="image-20230923150136864"></p><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150150564.png" alt="image-20230923150150564"></p><script type="math/tex; mode=display"></script><p>对于二级电路,共有:$2^4=16$种组合,但是其它八种是不完善的,他们不能表示所有的开关函数.</p><p>因为集成电路中的与非门和或非门易于得到,所以最常用的两种电路是:与非-与非,或非-或非.</p><h3 id="设计最简两级与非-与非电路的步骤"><a href="#设计最简两级与非-与非电路的步骤" class="headerlink" title="设计最简两级与非-与非电路的步骤:"></a>设计最简两级与非-与非电路的步骤:</h3><ol><li><p>找出F的<strong>最简积之和式</strong></p></li><li><p>画出对应的与或电路</p></li><li><p>用与非门代替所有门,保持原有门的相互连接方式不变.如果门有任何单个输入变量,则对其取反.</p><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150933787.png" alt="image-20230923150933787"></p><h3 id="设计最简两级或非-或非电路的步骤"><a href="#设计最简两级或非-或非电路的步骤" class="headerlink" title="设计最简两级或非-或非电路的步骤:"></a>设计最简两级或非-或非电路的步骤:</h3><ol><li>找出F的<strong>最简和之积式</strong></li><li>画出对应的或-与电路</li><li>用或非门代替所有的门,并保留原有门的相互连接方式不变.如果对输出门有任何作为输入的单个变量,则将这些变量取反.</li></ol><h2 id="多级与非门和或非门的电路设计"><a href="#多级与非门和或非门的电路设计" class="headerlink" title="多级与非门和或非门的电路设计"></a>多级与非门和或非门的电路设计</h2><h3 id="设计多级与非门的具体步骤"><a href="#设计多级与非门的具体步骤" class="headerlink" title="设计多级与非门的具体步骤:"></a>设计多级<strong>与非门</strong>的具体步骤:</h3><ol><li>化简要实现的开关函数</li><li>设计多级与门和或门电路,且输出级必须为或门.与门的输出不能作为其他与门的输入;或门的输出不能作为其他或门的输入.</li><li>将输出门作为第一级来标识电路的级数.将所有门替换为与非门,保留所有门之间的连接方式不变,对1,3,5…级的门输入取反,而对2,4,6…级门输入保持不变.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923151854252.png" alt="image-20230923151854252"><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923151901391.png" alt="image-20230923151901391"></p></li></ol><h2 id="用门的替代符号转换电路"><a href="#用门的替代符号转换电路" class="headerlink" title="用门的替代符号转换电路"></a>用门的替代符号转换电路</h2><p><img src="/Users/zhouzhou/Library/Application Support/typora-user-images/image-20230923152059863.png" alt="image-20230923152059863"></p><p>将与-或电路转换成为与非电路的一般步骤:</p><ol><li>通过在门的输出端添加取反圆圈,将所有的与门替换为与非门.通过在门的输入端添加取反符号,将所有的或门替换成与非门.</li><li>每当反相输出连接到反向输入,则不需要进行任何操作,因为两次取反可以抵消.</li><li>每当非反相输出连接到反相输入,或者反过来,则要插入一个反相器,以抵消掉取反圆圈.</li><li>如果一个变量连接到反相输入,那么对该变量取反.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923154958341.png" alt="image-20230923154958341"></p><h2 id="7-6二级、多输出电路设计"><a href="#7-6二级、多输出电路设计" class="headerlink" title="7.6二级、多输出电路设计"></a>7.6二级、多输出电路设计</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="多路选择器、译码器和可编程逻辑器件"><a href="#多路选择器、译码器和可编程逻辑器件" class="headerlink" title="多路选择器、译码器和可编程逻辑器件"></a>多路选择器、译码器和可编程逻辑器件</h1><h2 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h2><ol><li>多路选择器</li><li>三态缓冲器</li><li>译码器和编码器</li><li>只读存储器</li><li>可编程逻辑器件</li><li>复杂可编程逻辑器件</li><li>现场可编程门阵列</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>解释多路选择器的功能。用门电路实现多路选择器。</li><li>解释三态缓冲器的工作原理。当多个三态缓冲器的输出并联时，分析其最终的输出状态。利用三态缓冲器将多路选择器的信号接到总线上。</li><li>解释编码器和译码器的工作原理。用译码器和其他门电路实现一组逻辑函数。用门电路实现译码器或者优先编码器。</li><li>解释只读存储器（Read Only Memory,ROM)的工作原理。用ROM实现一组逻辑函数。</li><li>解释可编程逻辑阵列（Programmalbe Logic Array,PLA)的工作原理。给定一个PLA的数据表或者内部连线图，确定其实现的逻辑函数。</li><li>解释可编程阵列逻辑器件（Programmable Array Logic，PAL)的工作原理。确定用PAL实现一组逻辑函数所需的编程阵列图。</li><li>解释复杂可编程逻辑器件（Complex Programmable Logic Device,CPLD)和现场可编程阵列（Field Programmable Gate Array,FPGA)的工作原理。</li><li>用香农展开定理分解开关函数。</li></ol><h2 id="9-2多路选择器"><a href="#9-2多路选择器" class="headerlink" title="9.2多路选择器"></a>9.2多路选择器</h2><p>多路选择器也称为数据选择器(MUX),有一组数据输入端和一组控制端</p>]]></content>
     
     
-    <summary type="html">🥧本文对数字电路第七章的内容进行总结</summary>
+    <summary type="html">🥧本文对数字电路第9章的内容进行总结</summary>
     
     
     
@@ -120,27 +141,6 @@
     
     
     <summary type="html">🥧本文对数字电路第8章的内容进行总结</summary>
-    
-    
-    
-    <category term="数字电路" scheme="https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
-    
-    
-    <category term="数字电路" scheme="https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第9章 多路选择器、译码器和可编程逻辑器件</title>
-    <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
-    <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
-    <published>2023-10-24T11:19:03.000Z</published>
-    <updated>2023-10-24T14:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="多路选择器、译码器和可编程逻辑器件"><a href="#多路选择器、译码器和可编程逻辑器件" class="headerlink" title="多路选择器、译码器和可编程逻辑器件"></a>多路选择器、译码器和可编程逻辑器件</h1><h2 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h2><ol><li>多路选择器</li><li>三态缓冲器</li><li>译码器和编码器</li><li>只读存储器</li><li>可编程逻辑器件</li><li>复杂可编程逻辑器件</li><li>现场可编程门阵列</li></ol><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol><li>解释多路选择器的功能。用门电路实现多路选择器。</li><li>解释三态缓冲器的工作原理。当多个三态缓冲器的输出并联时，分析其最终的输出状态。利用三态缓冲器将多路选择器的信号接到总线上。</li><li>解释编码器和译码器的工作原理。用译码器和其他门电路实现一组逻辑函数。用门电路实现译码器或者优先编码器。</li><li>解释只读存储器（Read Only Memory,ROM)的工作原理。用ROM实现一组逻辑函数。</li><li>解释可编程逻辑阵列（Programmalbe Logic Array,PLA)的工作原理。给定一个PLA的数据表或者内部连线图，确定其实现的逻辑函数。</li><li>解释可编程阵列逻辑器件（Programmable Array Logic，PAL)的工作原理。确定用PAL实现一组逻辑函数所需的编程阵列图。</li><li>解释复杂可编程逻辑器件（Complex Programmable Logic Device,CPLD)和现场可编程阵列（Field Programmable Gate Array,FPGA)的工作原理。</li><li>用香农展开定理分解开关函数。</li></ol><h2 id="9-2多路选择器"><a href="#9-2多路选择器" class="headerlink" title="9.2多路选择器"></a>9.2多路选择器</h2><p>多路选择器也称为数据选择器(MUX),有一组数据输入端和一组控制端</p>]]></content>
-    
-    
-    <summary type="html">🥧本文对数字电路第9章的内容进行总结</summary>
     
     
     
@@ -194,6 +194,27 @@
   </entry>
   
   <entry>
+    <title>第一章 习题总结</title>
+    <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
+    <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
+    <published>2023-10-24T11:19:03.000Z</published>
+    <updated>2023-10-24T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一章习题总结"><a href="#第一章习题总结" class="headerlink" title="第一章习题总结"></a>第一章习题总结</h1><h2 id="关于“-”和“-bigcup-”"><a href="#关于“-”和“-bigcup-”" class="headerlink" title="关于“+”和“$\bigcup$”"></a>关于“+”和“$\bigcup$”</h2><p>当A和B是互不相容事件时,$A\bigcup B$可以写成$A+B$</p><h2 id="P-A-overline-B-P-A-B-P-A-P-AB"><a href="#P-A-overline-B-P-A-B-P-A-P-AB" class="headerlink" title="$P(A\overline{B})=P(A-B)=P(A)-P(AB)$"></a>$P(A\overline{B})=P(A-B)=P(A)-P(AB)$</h2><p>后面定理2.4.3的证明中也会用到</p><blockquote><p>定理2.4.3 若事件$A_1,A_2,…A_n$相互独立,则对任意个事件换成对立事件仍然相互独立</p></blockquote>]]></content>
+    
+    
+    <summary type="html">🥧本文对概率率第一章的习题进行总结</summary>
+    
+    
+    
+    <category term="概率论" scheme="https://hitszzhoujy.com/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    
+    
+    <category term="概率论" scheme="https://hitszzhoujy.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第三章 随机变量及其分布</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
@@ -215,23 +236,23 @@
   </entry>
   
   <entry>
-    <title>第一章 习题总结</title>
+    <title>第7章 多级门电路/与非门和或非门</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
     <published>2023-10-24T11:19:03.000Z</published>
     <updated>2023-10-24T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="第一章习题总结"><a href="#第一章习题总结" class="headerlink" title="第一章习题总结"></a>第一章习题总结</h1><h2 id="关于“-”和“-bigcup-”"><a href="#关于“-”和“-bigcup-”" class="headerlink" title="关于“+”和“$\bigcup$”"></a>关于“+”和“$\bigcup$”</h2><p>当A和B是互不相容事件时,$A\bigcup B$可以写成$A+B$</p><h2 id="P-A-overline-B-P-A-B-P-A-P-AB"><a href="#P-A-overline-B-P-A-B-P-A-P-AB" class="headerlink" title="$P(A\overline{B})=P(A-B)=P(A)-P(AB)$"></a>$P(A\overline{B})=P(A-B)=P(A)-P(AB)$</h2><p>后面定理2.4.3的证明中也会用到</p><blockquote><p>定理2.4.3 若事件$A_1,A_2,…A_n$相互独立,则对任意个事件换成对立事件仍然相互独立</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="多级门电路-与非门和或非门"><a href="#多级门电路-与非门和或非门" class="headerlink" title="多级门电路/与非门和或非门"></a>多级门电路/与非门和或非门</h1><h2 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h2><ol><li>多级门电路</li><li>与非门和或非门</li><li>两级与非门和或非门电路设计</li><li>多级与非门和或非门电路设计</li><li>用门代替符号转换电路</li><li>二级多输出电路设计</li><li>多输出与非门和或非门电路</li></ol><h2 id="7-1多级门电路"><a href="#7-1多级门电路" class="headerlink" title="7.1多级门电路"></a>7.1多级门电路</h2><p>电路的级数:电路中串联的门的最大数目就是电路的级数.</p><h3 id="7-1-1改变电路级数的方法"><a href="#7-1-1改变电路级数的方法" class="headerlink" title="7.1.1改变电路级数的方法:"></a>7.1.1改变电路级数的方法:</h3><ol><li>与或电路的级数会随着对推导出来的积之和式的因式分解而增加.</li><li>或与电路的级数会随着对推导出来的和之积式的展开而增加.</li></ol><blockquote><p>有时通过因式分解/展开各项可以增加电路的级数,从而减少需要的门数和门输入数目,但有时增加电路的级数反而会增大制造成本.</p></blockquote><h3 id="7-1-2用树状图确定确定为了实现一个函数需要的门和门输入数"><a href="#7-1-2用树状图确定确定为了实现一个函数需要的门和门输入数" class="headerlink" title="7.1.2用树状图确定确定为了实现一个函数需要的门和门输入数"></a>7.1.2用树状图确定确定为了实现一个函数需要的门和门输入数</h3><ol><li>$Z_1=[(A+B)C+DE(F+G)H]$</li><li>$Z_2=A+B[C+DE(F+G)]$<br><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image.png" alt="Alt text"></li></ol><h3 id="7-1-3找出一个最简的二级结果-为什么必须要同时考虑函数的和之积式和积之和式"><a href="#7-1-3找出一个最简的二级结果-为什么必须要同时考虑函数的和之积式和积之和式" class="headerlink" title="7.1.3找出一个最简的二级结果,为什么必须要同时考虑函数的和之积式和积之和式"></a>7.1.3找出一个最简的二级结果,为什么必须要同时考虑函数的和之积式和积之和式</h3><p>因为要比较和之积式和积之和式的化简结果才知道,哪种方式最终使用的门数最少,以及门输入量最少.</p><h2 id="7-2与非门和或非门"><a href="#7-2与非门和或非门" class="headerlink" title="7.2与非门和或非门"></a>7.2与非门和或非门</h2><h3 id="逻辑电路设计者常使用与非门和或非门的原因"><a href="#逻辑电路设计者常使用与非门和或非门的原因" class="headerlink" title="逻辑电路设计者常使用与非门和或非门的原因"></a>逻辑电路设计者常使用与非门和或非门的原因</h3><ol><li>和与门、或门相比,通常与非门和或非门速度更快,需要的元件更少.</li><li>只使用与非门或者或非门就能实现任何逻辑电路.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230921154114950.png" alt="image-20230921154114950"></p><h3 id="确定一组门是否的功能完善的方法"><a href="#确定一组门是否的功能完善的方法" class="headerlink" title="确定一组门是否的功能完善的方法"></a>确定一组门是否的功能完善的方法</h3><ol><li>写出每个门所实现的函数的最简积之和表达式.</li><li>如果出现了取反运算,那么可以通过适当选择对应门的输入来实现非门.</li><li>尝试是否可以实现与运算或者或运算,一旦实现其中一个,则可实现另外一个(待补)</li></ol><blockquote><p>需要用与非门画出函数$F=((X+Y)’+(X’+Z)’)’$的电路图</p></blockquote><h2 id="7-3两级与非门和或非门电路设计"><a href="#7-3两级与非门和或非门电路设计" class="headerlink" title="7.3两级与非门和或非门电路设计"></a>7.3两级与非门和或非门电路设计</h2><p>根据Demorgan定律,可以很容易的将由与门和或门组成的电路转成由与非门或者或非门组成的电路.</p><blockquote><p>Demorgan定律:</p><script type="math/tex; mode=display">(X_1+X_2+...+X_n)'=X_1'X_2'...X_n'\\(X_1X_2...X_n)'=X_1'+X_2'+...+X_n'</script></blockquote><p>举例:</p><script type="math/tex; mode=display">\begin{split}F&=A+BC'+B'CD\\&=[A'(BC')'(B'CD)']'(与非-与非)\\&=[A'(B'+C)(B+C'+D')]'\\&=A+(B'+C)'+(B+C'+D')'\\&=[A+(B'+C)'+(B+C'+D')']'(或非-或非-取反)\end{split}</script><p>有上可知,我们得到了一个或非-或非-取反电路,但是如果我们想得到一个只含有或非门的电路,<strong>就要先化简成最简和之积式</strong>,<strong>而不是最简积之和式</strong>.</p><p>举例:我们将上式中的$F$改写成最简和之积式.</p><script type="math/tex; mode=display">\begin{split}F=&(A+B+C)(A+B'+C')(A+C'+D)\\=&\{[(A+B+C)(A+B'+C')(A+C'+D)]'\}'\\=&\{(A+B+C)'+(A+B'+C')+(A+C'+D)'\}'(或非-或非)\\=&\{(A'B'C')+(A'BC)+(A'CD')\}'\\=&(A'B'C')'(A'BC)'(A'CD')'\\\end{split}</script><p>在最简和之积式的情况下,可以化简为只含或非门的电路,在最简积之和式的条件下,可以化简为只含与非门的电路.</p><h3 id="二级电路的八种形式"><a href="#二级电路的八种形式" class="headerlink" title="二级电路的八种形式"></a>二级电路的八种形式</h3><ol><li>与-或</li><li>与非-与非</li><li>或非-或</li><li>或-与非</li><li>或-与</li><li>或非-或非</li><li>与-或非</li><li>与非-或非</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150136864.png" alt="image-20230923150136864"></p><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150150564.png" alt="image-20230923150150564"></p><script type="math/tex; mode=display"></script><p>对于二级电路,共有:$2^4=16$种组合,但是其它八种是不完善的,他们不能表示所有的开关函数.</p><p>因为集成电路中的与非门和或非门易于得到,所以最常用的两种电路是:与非-与非,或非-或非.</p><h3 id="设计最简两级与非-与非电路的步骤"><a href="#设计最简两级与非-与非电路的步骤" class="headerlink" title="设计最简两级与非-与非电路的步骤:"></a>设计最简两级与非-与非电路的步骤:</h3><ol><li><p>找出F的<strong>最简积之和式</strong></p></li><li><p>画出对应的与或电路</p></li><li><p>用与非门代替所有门,保持原有门的相互连接方式不变.如果门有任何单个输入变量,则对其取反.</p><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923150933787.png" alt="image-20230923150933787"></p><h3 id="设计最简两级或非-或非电路的步骤"><a href="#设计最简两级或非-或非电路的步骤" class="headerlink" title="设计最简两级或非-或非电路的步骤:"></a>设计最简两级或非-或非电路的步骤:</h3><ol><li>找出F的<strong>最简和之积式</strong></li><li>画出对应的或-与电路</li><li>用或非门代替所有的门,并保留原有门的相互连接方式不变.如果对输出门有任何作为输入的单个变量,则将这些变量取反.</li></ol><h2 id="多级与非门和或非门的电路设计"><a href="#多级与非门和或非门的电路设计" class="headerlink" title="多级与非门和或非门的电路设计"></a>多级与非门和或非门的电路设计</h2><h3 id="设计多级与非门的具体步骤"><a href="#设计多级与非门的具体步骤" class="headerlink" title="设计多级与非门的具体步骤:"></a>设计多级<strong>与非门</strong>的具体步骤:</h3><ol><li>化简要实现的开关函数</li><li>设计多级与门和或门电路,且输出级必须为或门.与门的输出不能作为其他与门的输入;或门的输出不能作为其他或门的输入.</li><li>将输出门作为第一级来标识电路的级数.将所有门替换为与非门,保留所有门之间的连接方式不变,对1,3,5…级的门输入取反,而对2,4,6…级门输入保持不变.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923151854252.png" alt="image-20230923151854252"><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923151901391.png" alt="image-20230923151901391"></p></li></ol><h2 id="用门的替代符号转换电路"><a href="#用门的替代符号转换电路" class="headerlink" title="用门的替代符号转换电路"></a>用门的替代符号转换电路</h2><p><img src="/Users/zhouzhou/Library/Application Support/typora-user-images/image-20230923152059863.png" alt="image-20230923152059863"></p><p>将与-或电路转换成为与非电路的一般步骤:</p><ol><li>通过在门的输出端添加取反圆圈,将所有的与门替换为与非门.通过在门的输入端添加取反符号,将所有的或门替换成与非门.</li><li>每当反相输出连接到反向输入,则不需要进行任何操作,因为两次取反可以抵消.</li><li>每当非反相输出连接到反相输入,或者反过来,则要插入一个反相器,以抵消掉取反圆圈.</li><li>如果一个变量连接到反相输入,那么对该变量取反.</li></ol><p><img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923154958341.png" alt="image-20230923154958341"></p><h2 id="7-6二级、多输出电路设计"><a href="#7-6二级、多输出电路设计" class="headerlink" title="7.6二级、多输出电路设计"></a>7.6二级、多输出电路设计</h2>]]></content>
     
     
-    <summary type="html">🥧本文对概率率第一章的习题进行总结</summary>
+    <summary type="html">🥧本文对数字电路第七章的内容进行总结</summary>
     
     
     
-    <category term="概率论" scheme="https://hitszzhoujy.com/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="数字电路" scheme="https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     
     
-    <category term="概率论" scheme="https://hitszzhoujy.com/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="数字电路" scheme="https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   
