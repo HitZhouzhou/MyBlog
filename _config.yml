@@ -301,3 +301,12 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
+  # Security
+encrypt: # hexo-blog-encrypt
+  silent: true
+  abstract: 只有我们才知道密码哦。
+  message: 这是我们的恋爱小屋！
+  tags:
+  - {name: love, password: 123456}
+  wrong_pass_message: 密码错误啦。
+  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。

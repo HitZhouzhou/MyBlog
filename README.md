@@ -74,9 +74,9 @@
   // 背景图(约3190行) 下面链接换成你自己的图片链接
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubusmile.jpg);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --darkmode-bg:url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg);
+    --mobileday-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/guayier.jpeg);
+    --mobilenight-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg);
   }`;
   ...
   // 美化模块主体DOM(约3356行)
