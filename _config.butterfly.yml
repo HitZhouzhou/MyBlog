@@ -550,7 +550,7 @@ background:
   default: var(--default-bg)
   #【可选】PC端夜间模式背景 
   darkmode: var(--darkmode-bg)
-  #【可选】移动端日间默认背景 
+  #【可选】移动端日间默认 
   mobileday: var(--mobileday-bg)
   #【可选】移动端夜间模式背景 
   mobilenight: var(--mobilenight-bg)
