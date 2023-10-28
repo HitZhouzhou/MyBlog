@@ -383,7 +383,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: http://love.hitszzhoujy.com/.netlify/functions/twikoo
+  envId: https://zhoutwikoo.netlify.app/.netlify/functions/twikoo
   region:
   visitor: false
   option:
