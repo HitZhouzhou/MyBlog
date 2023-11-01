@@ -6,7 +6,7 @@
   <link href="https://hitszzhoujy.com/atom.xml" rel="self"/>
   
   <link href="https://hitszzhoujy.com/"/>
-  <updated>2023-10-29T09:46:29.960Z</updated>
+  <updated>2023-11-01T15:57:45.564Z</updated>
   <id>https://hitszzhoujy.com/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>love-note 11-01</title>
+    <link href="https://hitszzhoujy.com/posts/3daec08e.html"/>
+    <id>https://hitszzhoujy.com/posts/3daec08e.html</id>
+    <published>2023-11-01T15:52:08.000Z</published>
+    <updated>2023-11-01T15:57:45.564Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试!" data-whm="抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="ef766024a8db32da51656a7ca0e21383a5a6a10c366a58decb39671e8c51ba77">4630436162ade97ba2718b7d0c4b3b637bd723daf9941f227c3af79eb0e544366a00e4795ecec50f4a475353b8e0b5f4268201ce2a12ce1b55b9c78b6806d6021223c7bc7452b70aa4722a1877446c7542cefc7199b7953f669d4801058631b9b3efb0dd7225b1d059cb759be8e12d39f00ff64a8e478fe7b55aa0552f4b303dc14e854ccc4816a141865601f01c30e617257c07109c3d134b9de7ad384aabba</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里记录我和女朋友的一些事情哦，需要密码才能进入!</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">The first fomal airticle of our love house.</summary>
+    
+    
+    
+    <category term="恋爱小屋" scheme="https://hitszzhoujy.com/categories/%E6%81%8B%E7%88%B1%E5%B0%8F%E5%B1%8B/"/>
+    
+    
+    <category term="恋爱小屋" scheme="https://hitszzhoujy.com/tags/%E6%81%8B%E7%88%B1%E5%B0%8F%E5%B1%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>数据选择器实现组合逻辑函数</title>
     <link href="https://hitszzhoujy.com/posts/83f822ad.html"/>
     <id>https://hitszzhoujy.com/posts/83f822ad.html</id>
     <published>2023-10-29T08:46:56.000Z</published>
-    <updated>2023-10-29T09:46:29.960Z</updated>
+    <updated>2023-10-29T09:47:44.447Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="原理">原理</h2><p>选择器输出为标准与或式，含有地址变量的全部最小项，因此可以利用这些最小项来实现逻辑函数。</p><h2 id="步骤">步骤</h2><ol><li>根据$n=k-1$或$n=k$来确定选择器的型号。(n为地址码变量的个数，k为逻辑函数的变量个数)</li><li>写出函数的标准与或式和选择器的输出信号的表达式。</li><li>对照比较，确定选择器各输入变量的表达式。</li><li>画出连线图</li></ol><h2 id="例题">例题</h2><h3 id="例题1">例题1</h3><p>$$ F=AB+BC+AC $$</p><h4 id="代数法">代数法</h4><ol><li>$n=k$ <br>则$$n=k=3$$</li><li>写出函数的标准与或式和选择器的输出信号表达式</li></ol><p>函数的标准与或式<br>$$ Y=AB(C+C’)+BC(A+A‘)+AC(B+B’) $$</p><p>$$<br>= A’BC+AB’C+ABC’+ABC<br>$$</p><p>$$<br>=\sum m(3,5,6,7)<br>$$</p><p>选择器输出信号表达式：<br>$$<br>Y=D_0A_2’A_1’A_0’+D_1A_2’A_1’A_0+D_2A_2’A_1A_0’+D_3A_2’A_1A_0+D_4A_2A_1’A_0’+D_5A_2A_1’A_0+D_6A_2A_1A_0’+D_7A_2A_1A_0<br>$$</p><p>令$A_2=A,A_1=B,A_0=C$<br>对比得：<br>$$<br>D_3=D_5=D_6=D_7=1<br>$$<br>其余为0</p><p>连线图<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/Mul8.jpg" alt="连线图"></p><h4 id="卡诺图法">卡诺图法</h4><p>$$<br>F=AB+BC+AC<br>$$<br>画出逻辑函数和复用器对应的卡诺图：<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/WechatIMG127.jpg" alt="卡诺图"><br>同样可以得出：<br>$$<br>D_2=D_5=D_6=D_7=1<br>$$<br>$$<br>D_0=D_1=D_3=D_4=0<br>$$</p><h3 id="例题2">例题2</h3><h4 id="选用n-k-1">选用n=k-1</h4><p>用$74L153$实现$F=AB+AC+BC$<br>我们需要知道$74L153$是四选一选择器。所以我们使用的是$n=k-1$的方式来实现该逻辑函数，因为只有两个地址输入端，而逻辑函数有四个变量，因此我们需要对逻辑函数进行降维。</p><h4 id="写出逻辑函数的标准与或式和选择器的输出表达式。">写出逻辑函数的标准与或式和选择器的输出表达式。</h4><p>$$<br>F=A’BC+AB’C+ABC’+ABC<br>$$<br>$$<br>Y=D_0A_1’A_0’+D_1A_1’A_0+D_2A_1A_0’+D_3A_1A_0<br>$$</p><h4 id="比较得出函数变量和地址码之间的关系">比较得出函数变量和地址码之间的关系</h4><h5 id="法1">法1</h5><p>令$A_1=A,A_0=B$,<br>$$<br>Y=D_0A’B’+D_1A’B+D_2AB’<br>+D_3AB<br>$$<br>$$<br>=A’B’D_0+A’BD_1+AB’D_2+ABD_3<br>$$<br>$$<br>F=A’BC+AB’C+ABC’+ABC<br>$$<br>对比得：$D_0=0,D_1=C,D_2=C,D_3=1$</p><h4 id="画出连线图">画出连线图</h4><p><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/lianxiantu2.jpg" alt="连线图"></p><h5 id="法2-图形法">法2 图形法</h5><p>先画出带求函数的降维卡诺图，再画出相应的数据选择器的卡诺图。<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/kanuotu2.jpg" alt="卡诺图"><br>但是这样的比较过程同样有些复杂，我们还有更便捷的方式，那就是 <strong>降维真值表</strong>。<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/jiangweizhenzhibiao.jpg" alt="降维真值表"><br>如图所示，降维真值表共有五列，分别为<br>$m_i,A,B,C$,方格<br>其中$m_i$为对应要求的逻辑函数中含有的最小项，ABC的取值则由对应的最小项来决定，比如在$m_3$对应的那行的ABC取值为011，对应的则为3.</p><p>最后的方格中填的就是我们需要的结果。</p><h5 id="填写方格的方法">填写方格的方法</h5><p>前面我们说到我们需要降维，那么降维时一般都是降最低那维，在此表格中即为C。</p><ol><li>我们先在AB与C之间画一条线，把他们分割开。</li><li>接着看AB对应的项是否有出现两个相等的项，在这个表格中有两个相等的项：$m_6,m_7$,他们对应的AB都是11，因此在最后的表格中填1。</li><li>对于单独的项，则看C的取值来决定方格的取值，C=1,则方格中填C，反之填C’。</li></ol><p>由降维真值表我们就可以很快的写出降维卡诺图了。接着与上一种方法一样，同样画出选择器的卡诺图，对比来求出各个$D_i$的取值。</p><p>这种方法就先介绍到此，希望对大家有帮助。由疑问也可以直接看灿老师的讲解视频：<br>(% link 老师讲解视频, <a href="https://www.bilibili.com/video/BV1A3411z7Mf/?p=45&amp;spm_id_from=pageDriver&amp;vd_source=67219ae74a163427f28618146ba99a28">https://www.bilibili.com/video/BV1A3411z7Mf/?p=45&amp;spm_id_from=pageDriver&amp;vd_source=67219ae74a163427f28618146ba99a28</a> %)</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="原理">原理</h2><p>选择器输出为标准与或式，含有地址变量的全部最小项，因此可以利用这些最小项来实现逻辑函数。</p><h2 id="步骤">步骤</h2><ol><li>根据$n=k-1$或$n=k$来确定选择器的型号。(n为地址码变量的个数，k为逻辑函数的变量个数)</li><li>写出函数的标准与或式和选择器的输出信号的表达式。</li><li>对照比较，确定选择器各输入变量的表达式。</li><li>画出连线图</li></ol><h2 id="例题">例题</h2><h3 id="例题1">例题1</h3><p>$$ F=AB+BC+AC $$</p><h4 id="代数法">代数法</h4><ol><li>$n=k$ <br>则$$n=k=3$$</li><li>写出函数的标准与或式和选择器的输出信号表达式</li></ol><p>函数的标准与或式<br>$$ Y=AB(C+C’)+BC(A+A‘)+AC(B+B’) $$</p><p>$$<br>= A’BC+AB’C+ABC’+ABC<br>$$</p><p>$$<br>=\sum m(3,5,6,7)<br>$$</p><p>选择器输出信号表达式：<br>$$<br>Y=D_0A_2’A_1’A_0’+D_1A_2’A_1’A_0+D_2A_2’A_1A_0’+D_3A_2’A_1A_0+D_4A_2A_1’A_0’+D_5A_2A_1’A_0+D_6A_2A_1A_0’+D_7A_2A_1A_0<br>$$</p><p>令$A_2=A,A_1=B,A_0=C$<br>对比得：<br>$$<br>D_3=D_5=D_6=D_7=1<br>$$<br>其余为0</p><p>连线图<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/Mul8.jpg" alt="连线图"></p><h4 id="卡诺图法">卡诺图法</h4><p>$$<br>F=AB+BC+AC<br>$$<br>画出逻辑函数和复用器对应的卡诺图：<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/WechatIMG127.jpg" alt="卡诺图"><br>同样可以得出：<br>$$<br>D_2=D_5=D_6=D_7=1<br>$$<br>$$<br>D_0=D_1=D_3=D_4=0<br>$$</p><h3 id="例题2">例题2</h3><h4 id="选用n-k-1">选用n=k-1</h4><p>用$74L153$实现$F=AB+AC+BC$<br>我们需要知道$74L153$是四选一选择器。所以我们使用的是$n=k-1$的方式来实现该逻辑函数，因为只有两个地址输入端，而逻辑函数有四个变量，因此我们需要对逻辑函数进行降维。</p><h4 id="写出逻辑函数的标准与或式和选择器的输出表达式。">写出逻辑函数的标准与或式和选择器的输出表达式。</h4><p>$$<br>F=A’BC+AB’C+ABC’+ABC<br>$$<br>$$<br>Y=D_0A_1’A_0’+D_1A_1’A_0+D_2A_1A_0’+D_3A_1A_0<br>$$</p><h4 id="比较得出函数变量和地址码之间的关系">比较得出函数变量和地址码之间的关系</h4><h5 id="法1">法1</h5><p>令$A_1=A,A_0=B$,<br>$$<br>Y=D_0A’B’+D_1A’B+D_2AB’<br>+D_3AB<br>$$<br>$$<br>=A’B’D_0+A’BD_1+AB’D_2+ABD_3<br>$$<br>$$<br>F=A’BC+AB’C+ABC’+ABC<br>$$<br>对比得：$D_0=0,D_1=C,D_2=C,D_3=1$</p><h4 id="画出连线图">画出连线图</h4><p><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/lianxiantu2.jpg" alt="连线图"></p><h5 id="法2-图形法">法2 图形法</h5><p>先画出带求函数的降维卡诺图，再画出相应的数据选择器的卡诺图。<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/kanuotu2.jpg" alt="卡诺图"><br>但是这样的比较过程同样有些复杂，我们还有更便捷的方式，那就是 <strong>降维真值表</strong>。<br><img src="https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/jiangweizhenzhibiao.jpg" alt="降维真值表"><br>如图所示，降维真值表共有五列，分别为<br>$m_i,A,B,C$,方格<br>其中$m_i$为对应要求的逻辑函数中含有的最小项，ABC的取值则由对应的最小项来决定，比如在$m_3$对应的那行的ABC取值为011，对应的则为3.</p><p>最后的方格中填的就是我们需要的结果。</p><h5 id="填写方格的方法">填写方格的方法</h5><p>前面我们说到我们需要降维，那么降维时一般都是降最低那维，在此表格中即为C。</p><ol><li>我们先在AB与C之间画一条线，把他们分割开。</li><li>接着看AB对应的项是否有出现两个相等的项，在这个表格中有两个相等的项：$m_6,m_7$,他们对应的AB都是11，因此在最后的表格中填1。</li><li>对于单独的项，则看C的取值来决定方格的取值，C=1,则方格中填C，反之填C’。</li></ol><p>由降维真值表我们就可以很快的写出降维卡诺图了。接着与上一种方法一样，同样画出选择器的卡诺图，对比来求出各个$D_i$的取值。</p><p>这种方法就先介绍到此，希望对大家有帮助。由疑问也可以直接看灿老师的讲解视频：</p><div class="tag link"><a class="link-card" title="老师讲解视频" href="https://www.bilibili.com/video/BV1A3411z7Mf/?p=45&spm_id_from=pageDriver&vd_source=67219ae74a163427f28618146ba99a28"><div class="left"><img src="/assets/coffee.png"/></div><div class="right"><p class="text">老师讲解视频</p><p class="url">https://www.bilibili.com/video/BV1A3411z7Mf/?p=45&spm_id_from=pageDriver&vd_source=67219ae74a163427f28618146ba99a28</p></div></a></div>]]></content>
     
     
       
@@ -258,6 +279,27 @@
   </entry>
   
   <entry>
+    <title>第8章 用门电路设计和模拟组合电路</title>
+    <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
+    <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
+    <published>2023-10-24T11:19:03.000Z</published>
+    <updated>2023-10-24T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1>用门电路设计和模拟组合电路</h1><h2 id="主线">主线</h2><ol><li>门延迟和时序图</li><li>组合逻辑的冒险</li><li>逻辑电路的仿真和测试</li></ol><h2 id="8-3-门延迟和时序图">8.3 门延迟和时序图</h2><h3 id="门延迟的原因">门延迟的原因</h3><p>当改变逻辑电路的输入时,输出并不会立刻发生该变.门内的晶体管或者其他开关器件需要一定的时间对输入的变化做出反应,以至于对应门输入的改变,门输出的改变会延迟.<img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923164004537.png" alt="image-20230923164004537"></p><p>时序图常用来分析时序电路.这种图给出了电路中信号相对于时间函数的变化规律.通常把几个变量画在一张图中,这样很容易的观察出这些变量相对于其他变量随时间的变化.</p><h2 id="组合逻辑的冒险">组合逻辑的冒险</h2><p>当组合电路的输入发生变化时,输出端可能会出现不期望的瞬变.当从输入到输出的不同路径有不同的传输延迟时就会发生这种瞬变.</p><h3 id="静态1-冒险">静态1-冒险</h3><p>由于任何单个变量的变化和某种传输延迟组成,电路输出可能会瞬间发生翻转变成0,而它本应该是1.</p><h3 id="静态0-冒险">静态0-冒险</h3><p>同理,输出由本来的恒定值0瞬间变成1.</p><h3 id="动态冒险">动态冒险</h3><p>电路的输出从本来的1变成0,或0变成1,发生了3次或者3次以上.</p><h3 id="判断两级与-或电路冒险的方法">判断两级与-或电路冒险的方法</h3><ol><li>写出电路的最简积之和表达式</li><li>画出卡诺图,并圈定每个项</li><li>如果任何两个相邻的1不能被同一个圈涵盖,那么这两个1之间转换就会有一个1-冒险.对于n变量的卡诺图,当一个变量变化,而其他n-1个变量不变的情况下就会发生这种转换.</li></ol><hr><p>对于多级电路的冒险的判断还未清楚</p>]]></content>
+    
+    
+    <summary type="html">🥧本文对数字电路第8章的内容进行总结</summary>
+    
+    
+    
+    <category term="数字电路" scheme="https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
+    
+    
+    <category term="数字电路" scheme="https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第7章 多级门电路/与非门和或非门</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
@@ -279,16 +321,16 @@
   </entry>
   
   <entry>
-    <title>第8章 用门电路设计和模拟组合电路</title>
+    <title>第9章 多路选择器、译码器和可编程逻辑器件</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
     <published>2023-10-24T11:19:03.000Z</published>
     <updated>2023-10-24T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1>用门电路设计和模拟组合电路</h1><h2 id="主线">主线</h2><ol><li>门延迟和时序图</li><li>组合逻辑的冒险</li><li>逻辑电路的仿真和测试</li></ol><h2 id="8-3-门延迟和时序图">8.3 门延迟和时序图</h2><h3 id="门延迟的原因">门延迟的原因</h3><p>当改变逻辑电路的输入时,输出并不会立刻发生该变.门内的晶体管或者其他开关器件需要一定的时间对输入的变化做出反应,以至于对应门输入的改变,门输出的改变会延迟.<img src="http://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/image-20230923164004537.png" alt="image-20230923164004537"></p><p>时序图常用来分析时序电路.这种图给出了电路中信号相对于时间函数的变化规律.通常把几个变量画在一张图中,这样很容易的观察出这些变量相对于其他变量随时间的变化.</p><h2 id="组合逻辑的冒险">组合逻辑的冒险</h2><p>当组合电路的输入发生变化时,输出端可能会出现不期望的瞬变.当从输入到输出的不同路径有不同的传输延迟时就会发生这种瞬变.</p><h3 id="静态1-冒险">静态1-冒险</h3><p>由于任何单个变量的变化和某种传输延迟组成,电路输出可能会瞬间发生翻转变成0,而它本应该是1.</p><h3 id="静态0-冒险">静态0-冒险</h3><p>同理,输出由本来的恒定值0瞬间变成1.</p><h3 id="动态冒险">动态冒险</h3><p>电路的输出从本来的1变成0,或0变成1,发生了3次或者3次以上.</p><h3 id="判断两级与-或电路冒险的方法">判断两级与-或电路冒险的方法</h3><ol><li>写出电路的最简积之和表达式</li><li>画出卡诺图,并圈定每个项</li><li>如果任何两个相邻的1不能被同一个圈涵盖,那么这两个1之间转换就会有一个1-冒险.对于n变量的卡诺图,当一个变量变化,而其他n-1个变量不变的情况下就会发生这种转换.</li></ol><hr><p>对于多级电路的冒险的判断还未清楚</p>]]></content>
+    <content type="html"><![CDATA[<h1>多路选择器、译码器和可编程逻辑器件</h1><h2 id="主线">主线</h2><ol><li>多路选择器</li><li>三态缓冲器</li><li>译码器和编码器</li><li>只读存储器</li><li>可编程逻辑器件</li><li>复杂可编程逻辑器件</li><li>现场可编程门阵列</li></ol><h2 id="目标">目标</h2><ol><li>解释多路选择器的功能。用门电路实现多路选择器。</li><li>解释三态缓冲器的工作原理。当多个三态缓冲器的输出并联时，分析其最终的输出状态。利用三态缓冲器将多路选择器的信号接到总线上。</li><li>解释编码器和译码器的工作原理。用译码器和其他门电路实现一组逻辑函数。用门电路实现译码器或者优先编码器。</li><li>解释只读存储器（Read Only Memory,ROM)的工作原理。用ROM实现一组逻辑函数。</li><li>解释可编程逻辑阵列（Programmalbe Logic Array,PLA)的工作原理。给定一个PLA的数据表或者内部连线图，确定其实现的逻辑函数。</li><li>解释可编程阵列逻辑器件（Programmable Array Logic，PAL)的工作原理。确定用PAL实现一组逻辑函数所需的编程阵列图。</li><li>解释复杂可编程逻辑器件（Complex Programmable Logic Device,CPLD)和现场可编程阵列（Field Programmable Gate Array,FPGA)的工作原理。</li><li>用香农展开定理分解开关函数。</li></ol><h2 id="9-2多路选择器">9.2多路选择器</h2><p>多路选择器也称为数据选择器(MUX),有一组数据输入端和一组控制端</p>]]></content>
     
     
-    <summary type="html">🥧本文对数字电路第8章的内容进行总结</summary>
+    <summary type="html">🥧本文对数字电路第9章的内容进行总结</summary>
     
     
     
@@ -321,27 +363,6 @@
   </entry>
   
   <entry>
-    <title>第9章 多路选择器、译码器和可编程逻辑器件</title>
-    <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
-    <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
-    <published>2023-10-24T11:19:03.000Z</published>
-    <updated>2023-10-24T14:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1>多路选择器、译码器和可编程逻辑器件</h1><h2 id="主线">主线</h2><ol><li>多路选择器</li><li>三态缓冲器</li><li>译码器和编码器</li><li>只读存储器</li><li>可编程逻辑器件</li><li>复杂可编程逻辑器件</li><li>现场可编程门阵列</li></ol><h2 id="目标">目标</h2><ol><li>解释多路选择器的功能。用门电路实现多路选择器。</li><li>解释三态缓冲器的工作原理。当多个三态缓冲器的输出并联时，分析其最终的输出状态。利用三态缓冲器将多路选择器的信号接到总线上。</li><li>解释编码器和译码器的工作原理。用译码器和其他门电路实现一组逻辑函数。用门电路实现译码器或者优先编码器。</li><li>解释只读存储器（Read Only Memory,ROM)的工作原理。用ROM实现一组逻辑函数。</li><li>解释可编程逻辑阵列（Programmalbe Logic Array,PLA)的工作原理。给定一个PLA的数据表或者内部连线图，确定其实现的逻辑函数。</li><li>解释可编程阵列逻辑器件（Programmable Array Logic，PAL)的工作原理。确定用PAL实现一组逻辑函数所需的编程阵列图。</li><li>解释复杂可编程逻辑器件（Complex Programmable Logic Device,CPLD)和现场可编程阵列（Field Programmable Gate Array,FPGA)的工作原理。</li><li>用香农展开定理分解开关函数。</li></ol><h2 id="9-2多路选择器">9.2多路选择器</h2><p>多路选择器也称为数据选择器(MUX),有一组数据输入端和一组控制端</p>]]></content>
-    
-    
-    <summary type="html">🥧本文对数字电路第9章的内容进行总结</summary>
-    
-    
-    
-    <category term="数字电路" scheme="https://hitszzhoujy.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
-    
-    
-    <category term="数字电路" scheme="https://hitszzhoujy.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title>第二章 条件概率与独立性</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
@@ -363,16 +384,16 @@
   </entry>
   
   <entry>
-    <title>第三章 随机变量及其分布</title>
+    <title>第一章 习题总结</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
     <published>2023-10-24T11:19:03.000Z</published>
     <updated>2023-10-24T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1>随机变量及其分布</h1><h2 id="主线">主线:</h2><ol><li>随机变量的概念</li><li>离散型随机变量<ol><li>概率分布列</li><li>0-1分布</li><li>二项分布</li><li>泊松分布</li><li>几何分布</li><li>超几何分布</li></ol></li><li>随机变量的分布函数</li><li>连续型随机变量</li></ol><h2 id="随机变量的概念">随机变量的概念</h2><p>提出:在随机试验中,人们观察的常常是一个随机取值的量,如:电话的拨通次数,灯泡的寿命等.对于观察对象与数值无关的试验,也可以使其与数值相关联,如:抛硬币,正面取1,反面取0.</p><h3 id="随机变量的特点">随机变量的特点</h3><p>若用$X$来表示随机变量,则随着试验的重复,$X$可以取不同的值,并且$X$的取值在试验前是无法预测的,具有随机性.例如抛硬币:</p><p>$$<br>X=\begin{cases}</p><p>1 &amp; 正面出现 \</p><p>2 &amp; 反面出现 \</p><p>\end{cases}<br>$$</p><h3 id="定义">定义:</h3><p>设$E$是随机试验,它的样本空间是$S$.如果对$S$中的每个基本事件$e$,都有唯一的实数值$X(e)$与之对应,则称$X(e)$为随机变量,简记为$X$</p><h3 id="分类">分类:</h3><p>$$<br>随机变量=\begin{cases}<br>离散型随机变量 &amp; (随机变量的取值是有限个,或者可列无穷多个)\<br>连续型随机变量 &amp; (取值可以充满一个空间)\<br>\end{cases}<br>$$</p><h2 id="离散型随机变量">离散型随机变量</h2><h3 id="概率分布列">概率分布列</h3><p>提出:对于随机变量$X$,我们不仅想知道它的可能取值,还想知道它每个取值出现的概率.</p><p>设事件“$X=x_k$”的概率为$p_k$,即<br>$$<br>P(X=x_k)=p_k(k=1,2,3…)<br>$$<br>则该式子不仅告诉人们$X$的取值,还告诉人们每个取值的概率大小.人们称该式为$X$的概率分布列,又称分布律.它也可以用表格的形式表现出来:</p><table><thead><tr><th>$X$</th><th>$X_1$</th><th>…</th><th>$X_k$</th><th>…</th><th></th></tr></thead><tbody><tr><td>$P$</td><td>$P_1$</td><td>…</td><td>$P_k$</td><td>…</td><td></td></tr></tbody></table><p>由概率的基本性质可知,任何分布列都满足:<br>$$<br>\begin{split}<br>&amp;1. P_k \geq 0(k=1,2…)\<br>&amp;2. \sum_kP_k=1\<br>\end{split}<br>$$</p><h2 id="0-1分布-伯努利分布-两点分布">0-1分布(伯努利分布,两点分布)</h2><p>定义:若随机变量$X$只能取0,1两个值,则称其服从0-1分布.</p><p>分布列是:<br>$$<br>P(X=1)=p,P(X=0)=1-p , (0&lt;p&lt;1)<br>$$<br>记为:$X\sim B(1,p)$</p><h2 id="二项分布">二项分布</h2><p>定义:</p><p>若随机变量X的分布列<br>$$<br>P(X=k)=C_n^{k}p^k(1-p)^{n-k},(k=0,1,2…,n),(0&lt;p&lt;1)<br>$$<br>则称X服从二项分布,记为$X \sim B(n,p)$</p><p>特别的,当n=1时<br>$$<br>P(X=k)=p^kq^{1-k},(k=0,1)<br>$$</p><h2 id="泊松分布">泊松分布</h2><p>定义:若随机变量X的分布列<br>$$<br>P(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}(\lambda&gt;0)(k=0,1,2…)<br>$$<br>则称X满足参数为$\lambda$的泊松分布分布,并用记号$X \sim P(\lambda)$表示</p><p>同样的泊松分布也满足分布列的两条性质<br>$$<br>P(X=k)\geq 0\<br>\sum_{k=1}^{\infty} P(X=k)=1<br>$$</p><blockquote><p>以n,p为参数的二项分布,当n很大,p很小时,近似于$\lambda=np$为参数的泊松分布.</p></blockquote><h2 id="几何分布-具有无记忆性">几何分布(具有无记忆性)</h2><p>若随机变量的分布列<br>$$<br>P(X=k)=q^{k-1}p(k=1,2…),\<br>0&lt;p&lt;1,q=1-p<br>$$<br>则称随机变量X服从几何分布,记为:$X\sim G§$</p><blockquote><p>几何分布可以理解为,则伯努利试验中,每次试验成功的概率为p,现在独立重复伯努利试验,其第一次出现成功在第k次试验的概率.$q^{k-1}$表示前k-1次试验是失败的,第k次是成功的.</p></blockquote><h2 id="超几何分布">超几何分布</h2><p>设有N件产品,其中有M件次品,今从中取n件,则这n件产品中含的次品数X是一个离散型随机变量.<br>$$<br>P(X=k)=\frac{C_M^{k}C_{N-M}^{n-k}}{C_N^{n}}(k=0,1,2…l)\<br>l=min(M,n)<br>$$</p><blockquote><p>二项分布是有放回的抽取,而超几何分布是无放回的抽取.</p></blockquote><p>定理:<br>$$<br>\lim_{N\to\infty}{\frac{C_M^kC_{N-M}^{n-k}}{C_N^n}}\approx C_N^n(\frac{M}{N})^k(1-\frac{M}{N})^{n-k}\<br>k=0,1…,min(M,n)<br>$$</p><blockquote><p>一般的,当$n\leq 0.1N$时,可以用此近似公式.由于有专门的二项分布表可查,可以节省工作量.</p></blockquote><h2 id="随机变量的分布函数">随机变量的分布函数</h2>]]></content>
+    <content type="html"><![CDATA[<h1>第一章习题总结</h1><h2 id="关于“-”和“-bigcup-”">关于“+”和“$\bigcup$”</h2><p>当A和B是互不相容事件时,$A\bigcup B$可以写成$A+B$</p><h2 id="P-A-overline-B-P-A-B-P-A-P-AB">$P(A\overline{B})=P(A-B)=P(A)-P(AB)$</h2><p>后面定理2.4.3的证明中也会用到</p><blockquote><p>定理2.4.3 若事件$A_1,A_2,…A_n$相互独立,则对任意个事件换成对立事件仍然相互独立</p></blockquote>]]></content>
     
     
-    <summary type="html">🥧本文对概率率第三章的内容进行总结</summary>
+    <summary type="html">🥧本文对概率率第一章的习题进行总结</summary>
     
     
     
@@ -384,16 +405,16 @@
   </entry>
   
   <entry>
-    <title>第一章 习题总结</title>
+    <title>第三章 随机变量及其分布</title>
     <link href="https://hitszzhoujy.com/posts/c8a56023.html"/>
     <id>https://hitszzhoujy.com/posts/c8a56023.html</id>
     <published>2023-10-24T11:19:03.000Z</published>
     <updated>2023-10-24T14:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1>第一章习题总结</h1><h2 id="关于“-”和“-bigcup-”">关于“+”和“$\bigcup$”</h2><p>当A和B是互不相容事件时,$A\bigcup B$可以写成$A+B$</p><h2 id="P-A-overline-B-P-A-B-P-A-P-AB">$P(A\overline{B})=P(A-B)=P(A)-P(AB)$</h2><p>后面定理2.4.3的证明中也会用到</p><blockquote><p>定理2.4.3 若事件$A_1,A_2,…A_n$相互独立,则对任意个事件换成对立事件仍然相互独立</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1>随机变量及其分布</h1><h2 id="主线">主线:</h2><ol><li>随机变量的概念</li><li>离散型随机变量<ol><li>概率分布列</li><li>0-1分布</li><li>二项分布</li><li>泊松分布</li><li>几何分布</li><li>超几何分布</li></ol></li><li>随机变量的分布函数</li><li>连续型随机变量</li></ol><h2 id="随机变量的概念">随机变量的概念</h2><p>提出:在随机试验中,人们观察的常常是一个随机取值的量,如:电话的拨通次数,灯泡的寿命等.对于观察对象与数值无关的试验,也可以使其与数值相关联,如:抛硬币,正面取1,反面取0.</p><h3 id="随机变量的特点">随机变量的特点</h3><p>若用$X$来表示随机变量,则随着试验的重复,$X$可以取不同的值,并且$X$的取值在试验前是无法预测的,具有随机性.例如抛硬币:</p><p>$$<br>X=\begin{cases}</p><p>1 &amp; 正面出现 \</p><p>2 &amp; 反面出现 \</p><p>\end{cases}<br>$$</p><h3 id="定义">定义:</h3><p>设$E$是随机试验,它的样本空间是$S$.如果对$S$中的每个基本事件$e$,都有唯一的实数值$X(e)$与之对应,则称$X(e)$为随机变量,简记为$X$</p><h3 id="分类">分类:</h3><p>$$<br>随机变量=\begin{cases}<br>离散型随机变量 &amp; (随机变量的取值是有限个,或者可列无穷多个)\<br>连续型随机变量 &amp; (取值可以充满一个空间)\<br>\end{cases}<br>$$</p><h2 id="离散型随机变量">离散型随机变量</h2><h3 id="概率分布列">概率分布列</h3><p>提出:对于随机变量$X$,我们不仅想知道它的可能取值,还想知道它每个取值出现的概率.</p><p>设事件“$X=x_k$”的概率为$p_k$,即<br>$$<br>P(X=x_k)=p_k(k=1,2,3…)<br>$$<br>则该式子不仅告诉人们$X$的取值,还告诉人们每个取值的概率大小.人们称该式为$X$的概率分布列,又称分布律.它也可以用表格的形式表现出来:</p><table><thead><tr><th>$X$</th><th>$X_1$</th><th>…</th><th>$X_k$</th><th>…</th><th></th></tr></thead><tbody><tr><td>$P$</td><td>$P_1$</td><td>…</td><td>$P_k$</td><td>…</td><td></td></tr></tbody></table><p>由概率的基本性质可知,任何分布列都满足:<br>$$<br>\begin{split}<br>&amp;1. P_k \geq 0(k=1,2…)\<br>&amp;2. \sum_kP_k=1\<br>\end{split}<br>$$</p><h2 id="0-1分布-伯努利分布-两点分布">0-1分布(伯努利分布,两点分布)</h2><p>定义:若随机变量$X$只能取0,1两个值,则称其服从0-1分布.</p><p>分布列是:<br>$$<br>P(X=1)=p,P(X=0)=1-p , (0&lt;p&lt;1)<br>$$<br>记为:$X\sim B(1,p)$</p><h2 id="二项分布">二项分布</h2><p>定义:</p><p>若随机变量X的分布列<br>$$<br>P(X=k)=C_n^{k}p^k(1-p)^{n-k},(k=0,1,2…,n),(0&lt;p&lt;1)<br>$$<br>则称X服从二项分布,记为$X \sim B(n,p)$</p><p>特别的,当n=1时<br>$$<br>P(X=k)=p^kq^{1-k},(k=0,1)<br>$$</p><h2 id="泊松分布">泊松分布</h2><p>定义:若随机变量X的分布列<br>$$<br>P(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}(\lambda&gt;0)(k=0,1,2…)<br>$$<br>则称X满足参数为$\lambda$的泊松分布分布,并用记号$X \sim P(\lambda)$表示</p><p>同样的泊松分布也满足分布列的两条性质<br>$$<br>P(X=k)\geq 0\<br>\sum_{k=1}^{\infty} P(X=k)=1<br>$$</p><blockquote><p>以n,p为参数的二项分布,当n很大,p很小时,近似于$\lambda=np$为参数的泊松分布.</p></blockquote><h2 id="几何分布-具有无记忆性">几何分布(具有无记忆性)</h2><p>若随机变量的分布列<br>$$<br>P(X=k)=q^{k-1}p(k=1,2…),\<br>0&lt;p&lt;1,q=1-p<br>$$<br>则称随机变量X服从几何分布,记为:$X\sim G§$</p><blockquote><p>几何分布可以理解为,则伯努利试验中,每次试验成功的概率为p,现在独立重复伯努利试验,其第一次出现成功在第k次试验的概率.$q^{k-1}$表示前k-1次试验是失败的,第k次是成功的.</p></blockquote><h2 id="超几何分布">超几何分布</h2><p>设有N件产品,其中有M件次品,今从中取n件,则这n件产品中含的次品数X是一个离散型随机变量.<br>$$<br>P(X=k)=\frac{C_M^{k}C_{N-M}^{n-k}}{C_N^{n}}(k=0,1,2…l)\<br>l=min(M,n)<br>$$</p><blockquote><p>二项分布是有放回的抽取,而超几何分布是无放回的抽取.</p></blockquote><p>定理:<br>$$<br>\lim_{N\to\infty}{\frac{C_M^kC_{N-M}^{n-k}}{C_N^n}}\approx C_N^n(\frac{M}{N})^k(1-\frac{M}{N})^{n-k}\<br>k=0,1…,min(M,n)<br>$$</p><blockquote><p>一般的,当$n\leq 0.1N$时,可以用此近似公式.由于有专门的二项分布表可查,可以节省工作量.</p></blockquote><h2 id="随机变量的分布函数">随机变量的分布函数</h2>]]></content>
     
     
-    <summary type="html">🥧本文对概率率第一章的习题进行总结</summary>
+    <summary type="html">🥧本文对概率率第三章的内容进行总结</summary>
     
     
     
