@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>数模总结</title>
+      <link href="/posts/528198f4.html"/>
+      <url>/posts/528198f4.html</url>
+      
+        <content type="html"><![CDATA[<h1>画图,</h1><h2 id="配色">配色</h2><table><thead><tr><th>颜色</th><th>线</th><th>填充</th></tr></thead><tbody><tr><td>橙</td><td>#F0CC53</td><td>#FFC66B</td></tr></tbody></table><ul><li><p>三线:#F0CC53,#00C9EF,#00C9EF</p></li><li><p>两线对比:#F0CC53,#F0CC53</p></li></ul><h2 id="模板">模板</h2><h3 id="线形图模板">线形图模板</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># 基础设置</span></span><br><span class="line"><span class="comment"># 设置全局字体为Times New Roman</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.family&#x27;</span>] = <span class="string">&#x27;Times New Roman&#x27;</span></span><br><span class="line"><span class="comment"># 设置字号为12pt</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.size&#x27;</span>] = <span class="number">12</span></span><br><span class="line"><span class="comment"># 清晰</span></span><br><span class="line">%config InlineBackend.figure_format = <span class="string">&#x27;retina&#x27;</span></span><br><span class="line">%matplotlib inline</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数模 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>p1141_01矩阵.md</title>
       <link href="/posts/265c9657.html"/>
       <url>/posts/265c9657.html</url>
@@ -31,19 +69,6 @@
             <tag> dfs </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
       
     </entry>
     
