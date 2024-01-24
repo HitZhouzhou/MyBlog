@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 哈晓周🥝
+title: 哈晓周🐷
 subtitle: 
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,哈小周'
-author: zjy🥝
+keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,哈晓周'
+author: zjy🐷
 language: zh-CN
 timezone: ''
 
@@ -275,11 +275,11 @@ magnet:
     - name: 算法
       display_name: 小Pの算法学习笔记
       icon: 🍡
-    - name: 计算机基础
-      display_name: 小Pの计算机基础笔记
+    - name: 概率论
+      display_name: 小Pの概率论笔记
       icon: 🍼
-    - name: 魔改教程
-      display_name: 小Pの博客魔改教程
+    - name: 数字电路
+      display_name: 小Pの数字电路
       icon: 🍉
     - name: Java基础
       display_name: 小PのJava基础笔记
@@ -287,9 +287,9 @@ magnet:
     - name: 数据库
       display_name: 小Pの数据库笔记
       icon: 🍨
-    - name: 演示
-      display_name: 小Pの案例演示笔记
-      icon: 🍥
+    # - name: 演示
+    #   display_name: 小Pの案例演示笔记
+    #   icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色
     text_hover_color: white # 文字鼠标悬浮颜色
@@ -301,3 +301,12 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
+  # Security
+encrypt: # hexo-blog-encrypt
+  silent: true
+  abstract: 只有我们才知道密码哦。
+  message: 这是我们的恋爱小屋！
+  tags:
+  - {name: love, password: 123456}
+  wrong_pass_message: 密码错误啦。
+  wrong_hash_message: 抱歉, 当前文章不能被校验, 不过您还是可以看看解密后的内容。

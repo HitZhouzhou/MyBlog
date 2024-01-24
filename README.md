@@ -1,3 +1,5 @@
+## 感谢猕猴桃大佬的开源，以下是原README文件
+
 ### 🥝的网站目前已经开源啦！！！暂定名为**hexo-theme-Fomalhaut**，原作者网站：[www.fomal.cc](https://www.fomal.cc)，如果你喜欢的话可以帮我点一个免费的Star🌟🌟🌟哦！
 
 ### 🚧🚧🚧本开源项目并不适合纯小白，需要一定的魔改经验，因此安装之前务必对Hexo框架命令和Butterfly主题比较熟悉，不熟悉的朋友建议提前熟悉[Hexo中文文档](https://hexo.bootcss.com/docs/configuration.html)和[Butterfly主题文档](https://butterfly.js.org/)，以及熟悉本站魔改教程，别上来就问文章怎么写！！！避免各种不必要的麻烦！！！望周知！！！！！！！！！！
@@ -74,9 +76,9 @@
   // 背景图(约3190行) 下面链接换成你自己的图片链接
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubusmile.jpg);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --darkmode-bg:url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg);
+    --mobileday-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/guayier.jpeg);
+    --mobilenight-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierbubuafternoon.jpeg);
   }`;
   ...
   // 美化模块主体DOM(约3356行)
@@ -149,7 +151,7 @@
     (currentTimeHtml =
       hnum < 18 && hnum >= 9
         ? `<img class='boardsign' src='https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets/yierflower.webp' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-        : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+        : `<img class='boardsign' src='' title=''><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
       document.getElementById("workboard") &&
       (document.getElementById("workboard").innerHTML = currentTimeHtml);
   }
