@@ -1,8 +1,0 @@
-{
-    "accessKeyId": "LTAI5t8jy86vT1FgHkF3MpeH",
-    "accessKeySecret": "mXxRTLxHb0Spy9C1yyePNSvHnNyEG1",
-    "bucket": "hitszzhou", // 存储空间名
-    "area": "", // 存储区域代号
-    "path": "", // 自定义存储路径
-    "customUrl": "" // 自定义域名，注意要加http://或者https://
-}
