@@ -3176,10 +3176,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets202402231021754.jpg);
+    --darkmode-bg:url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets202402231026041.jpeg);
+    --mobileday-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets202402231021754.jpg);
+    --mobilenight-bg: url(https://hitszzhou.oss-cn-shenzhen.aliyuncs.com/assets202402231021754.jpg);
   }`;
 }
 // 切换背景主函数
@@ -3228,7 +3228,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对🤣",
+          title: "链接不对",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,
